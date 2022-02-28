@@ -1,6 +1,7 @@
 .wrapper {
   position: relative;
   z-index: 1;
+  overflow: scroll;
 }
 
 .barba-container {
@@ -2178,9 +2179,17 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     font-size: 3em;
   }
 
+  .big-text.tx {
+    font-size: 2.5em;
+  }
+
   .big-text-fotter.fotter-block {
     margin-bottom: 16px;
-    font-size: 4.5em;
+    font-size: 4.5rem;
+  }
+
+  .otstup-span {
+    font-size: 4.5rem;
   }
 
   .text-filed {
@@ -2249,6 +2258,23 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
 }
 
 @media screen and (max-width: 767px) {
+  .coll.small {
+    width: 6em;
+  }
+
+  .big-text-fotter.fotter-block {
+    font-size: 3.5rem;
+  }
+
+  .otstup-span {
+    font-size: 3.6rem;
+  }
+
+  .pl-partners {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .image-2 {
     padding: 8px;
   }
@@ -2360,6 +2386,10 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     flex: 0 0 auto;
   }
 
+  .coll.small.pdmx {
+    padding-left: 16px;
+  }
+
   .coll.start.auto {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -2393,6 +2423,10 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
 
   .big-text._2 {
     font-size: 32px;
+  }
+
+  .big-text.tx {
+    font-size: 2em;
   }
 
   .serv-text {
@@ -2443,8 +2477,12 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
 
   .big-text-fotter.fotter-block {
     margin-top: 0px;
-    font-size: 4em;
-    line-height: 1;
+    font-size: 2.3em;
+    line-height: 0.7;
+  }
+
+  .otstup-span {
+    font-size: 2.3rem;
   }
 
   .form-block {
@@ -2658,6 +2696,18 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
   .fix-loader {
     width: 200vh;
     height: 200vh;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  .div-block-10 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
